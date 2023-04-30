@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.blogPost {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+	text-align: center;
+}
+
+.blogTitle {
+	margin: 15px 40px;
+}
+
+
+@media (max-width: 768px) {
+	.blogPost {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		width:100%;
+		margin-right: 150px;
+	}
+
+
+}

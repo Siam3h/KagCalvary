@@ -1,0 +1,25 @@
+.contact-page {
+    margin: 5px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-page h2 {
+    font-weight: 700;
+    margin: 25px ;
+}
+
+.contact-page h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}

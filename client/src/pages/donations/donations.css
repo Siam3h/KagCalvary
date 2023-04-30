@@ -1,0 +1,18 @@
+.donations {
+    margin: 0 40px;
+}
+
+.donations p {
+    line-height: 2rem;
+}
+
+.donations h2 {
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.donations-bible-reference {
+    font-style: italic;
+    font-weight: 700;
+    color: #ff5a34;
+}

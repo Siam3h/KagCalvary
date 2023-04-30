@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-navigation {
+    background-color: lightgray;
+    width: 100%;
+}
+
+.about h2 {
+    font-weight: 700;
+    margin: 25px 0;
+    margin: 25px 40px;
+}
+
+.about p {
+    line-height: 2rem;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 40px;
+}
+
+
+.about-bible-reference {
+    font-weight: 700;
+    color: #ff5a34;
+}
+
+.bible-quote {
+    font-style: italic;
+}
+
+.about__details {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .about-navigation {
+        background-color: white;
+    }  
+
+    .about__details {
+        display: block;
+    }
+
+    .about__detailsH {
+        display: none;
+    }
+
+    .table {
+        min-width: 400px;
+        line-height: 2em;
+        text-align: center;
+        margin: 5px -150px;
+        width: -150%;
+        display: none;
+    }
+    
+    .tr {
+        border-top: 1px solid #ff5a34;
+        border-bottom: 1px solid #ff5a34;
+    }
+    
+    .nb {   
+        font-style: italic;
+    }
+    
+}
